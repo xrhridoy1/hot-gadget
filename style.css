@@ -15,11 +15,18 @@
   z-index:;
 } */
  .buy-now{
-  background-color: black;
-  color: white;
+
   font-weight: 600;
   padding: 5px 20px;
   border-radius: 10px;
+  background-color: white;
+  color: black;
+
+ }
+ .buy-now:hover{
+  background-color: black;
+  color: white;
+
  }
 
 .see-all-style{
@@ -52,5 +59,20 @@
   box-shadow: 1px 1px 4px;
   overflow: hidden;
   margin-bottom: 5px;
+
+}
+
+.png-img{
+  box-shadow: 1px 1px 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.margin-img1{
+  margin-bottom: 50px;
+}
+.margin-img2{
+  margin-top: 20px;
+}
+.last-img{
 
 }
