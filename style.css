@@ -4,3 +4,53 @@
   margin-left: 25px;
 
 }
+.carousel-section{
+  margin-top: 100px;
+}
+/* .first-carousel-image{
+  background-image: url(images/bg-1.png);
+  background-repeat: no-repeat;
+  position: relative;
+  left: 50%;
+  z-index:;
+} */
+ .buy-now{
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  padding: 5px 20px;
+  border-radius: 10px;
+ }
+
+.see-all-style{
+  text-decoration: none;
+  color: #ff6347;
+}
+
+.text-m{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card img{
+  /* width: 100%;
+  height: 400px; */
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.card:hover img{
+  transform: scale(1.1);
+  transition: transform 1s;
+  transition-timing-function:linear;
+}
+.card:hover{
+  box-shadow: 1px 1px 15px;
+  transition: box-shadow 1s;
+}
+.card{
+  border: none !important;
+  box-shadow: 1px 1px 4px;
+  overflow: hidden;
+  margin-bottom: 5px;
+
+}
